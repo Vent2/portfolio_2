@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Section = styled.section`
+export const Section = styled.section `
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
@@ -24,7 +24,8 @@ export const Section = styled.section`
   }
 `
 
-export const SectionTitle = styled.h2`
+
+export const SectionTitle = styled.h2 `
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
@@ -54,7 +55,7 @@ export const SectionTitle = styled.h2`
   }
 `
 
-export const SectionText = styled.p`
+export const SectionText = styled.p `
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
@@ -76,7 +77,7 @@ export const SectionText = styled.p`
   }
 `
 
-export const SectionDivider = styled.div`
+export const SectionDivider = styled.div `
 
   width: 64px;
   height: 6px;
@@ -98,7 +99,7 @@ export const SectionDivider = styled.div`
     height: 2px;
   }
 `
-export const SectionSubText = styled.p`
+export const SectionSubText = styled.p `
   max-width: 800px;
   font-weight: 300;
   font-size: 18px;
@@ -116,7 +117,7 @@ export const SectionSubText = styled.p`
     line-height: 22px;
   }
 `
-export const SecondaryBtn = styled.button`
+export const SecondaryBtn = styled.button `
   color: #FFF;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
@@ -166,7 +167,7 @@ export const SecondaryBtn = styled.button`
   }
 `
 
-export const ButtonBack = styled.div`
+export const ButtonBack = styled.div `
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
   border-radius: 50px;
@@ -199,7 +200,7 @@ export const ButtonBack = styled.div`
   }
 `
 
-export const ButtonFront = styled.button`
+export const ButtonFront = styled.button `
   border: none;
   border-radius: 50px;
   color: #fff;
@@ -209,7 +210,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(to right, #00f4ff, #00e0d2, #00cba0, #00b56a, #2b9d30)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -245,7 +246,7 @@ export const ButtonFront = styled.button`
   }
 `
 
-export const LinkContainer = styled.div`
+export const LinkContainer = styled.div `
   margin-left: ${({ large }) => large ? '24px' : '16px'};
   transition: 0.3s ease;
   justify-content: center;
@@ -267,7 +268,7 @@ export const LinkContainer = styled.div`
   }
 `
 
-export const LinkIconImg = styled.div`
+export const LinkIconImg = styled.div `
   display: flex;  
   height: ${({ large }) => large ? '32px' : '24px'};
 
@@ -279,3 +280,105 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+    // Under is my name animated I have to figure out how to adjust it to fit in Hero Section
+    // Get my code for the html in my codepen
+    // export const MyName = styled.svg `
+    // #logo {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+    //   /*  Trying to added fill in animation */
+    //   /* animation: fill 1.5s ease forwards 3s;*/
+    // }
+
+
+// /* Gerald */
+
+// #logo path:nth-child(2) {
+//   stroke-dasharray: 1320px;
+//   stroke-dashoffset: 1320px;
+//   animation: line-anim 2s ease forwards;
+// }
+
+// #logo path:nth-child(3) {
+//   stroke-dasharray: 850px;
+//   stroke-dashoffset: 850px;
+//   animation: line-anim 2s ease forwards 0.3s;
+// }
+
+// #logo path:nth-child(4) {
+//   stroke-dasharray: 510px;
+//   stroke-dashoffset: 510px;
+//   animation: line-anim 2s ease forwards 0.6s;
+// }
+
+// #logo path:nth-child(5) {
+//   stroke-dasharray: 860px;
+//   stroke-dashoffset: 860px;
+//   animation: line-anim 2s ease forwards 0.9s;
+// }
+
+// #logo path:nth-child(6) {
+//   stroke-dasharray: 570px;
+//   stroke-dashoffset: 570px;
+//   animation: line-anim 2s ease forwards 1.2s;
+// }
+
+// #logo path:nth-child(7) {
+//   stroke-dasharray: 800px;
+//   stroke-dashoffset: 800px;
+//   animation: line-anim 2s ease forwards 1.5s;
+// }
+
+
+// /* Ventura */
+
+// #logo path:nth-child(8) {
+//   stroke-dasharray: 900px;
+//   stroke-dashoffset: 900px;
+//   animation: line-anim 2s ease forwards;
+// }
+
+// #logo path:nth-child(9) {
+//   stroke-dasharray: 815px;
+//   stroke-dashoffset: 815px;
+//   animation: line-anim 2s ease forwards 0.3s;
+// }
+
+// #logo path:nth-child(10) {
+//   stroke-dasharray: 890px;
+//   stroke-dashoffset: 890px;
+//   animation: line-anim 2s ease forwards 0.6s;
+// }
+
+// #logo path:nth-child(11) {
+//   stroke-dasharray: 640px;
+//   stroke-dashoffset: 640px;
+//   animation: line-anim 2s ease forwards 0.9s;
+// }
+
+// #logo path:nth-child(12) {
+//   stroke-dasharray: 880px;
+//   stroke-dashoffset: 880px;
+//   animation: line-anim 2s ease forwards 1.2s;
+// }
+
+// #logo path:nth-child(13) {
+//   stroke-dasharray: 500px;
+//   stroke-dashoffset: 500px;
+//   animation: line-anim 2s ease forwards 1.5s;
+// }
+
+// #logo path:nth-child(14) {
+//   stroke-dasharray: 680px;
+//   stroke-dashoffset: 680px;
+//   animation: line-anim 2s ease forwards 1.8s;
+// }
+
+// @keyframes line-anim {
+//   to {
+//       stroke-dashoffset: 0;
+//   }
+// }
+// `;
