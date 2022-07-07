@@ -44,6 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       I found my passion for coding once I read an article about an uncle that programmed a glove for his deaf niece which translates in real time her sign language. This glove helps this girl communicate easier and I think that is beautiful. I strive to create things that can be helpful to people.
@@ -112,7 +114,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      {/* <SectionDivider/> */}
     </Section>
   );
 };
