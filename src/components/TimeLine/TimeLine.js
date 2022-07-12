@@ -48,7 +48,8 @@ const Timeline = () => {
       <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I found my passion for coding once I read an article about an uncle that programmed a glove for his deaf niece which translates in real time her sign language. This glove helps this girl communicate easier and I think that is beautiful. I strive to create things that can be helpful to people.
+      While in the army, I found my passion for coding when I read an article about an uncle that programmed a glove for his deaf niece which translates in real time her sign language. This glove helps this girl communicate easier and I think that is beautiful. I strive to create applications that can be helpful to people. I decided to leave the army in pursuit of this. 
+      {/* <a href="https://www.good.is/his-niece-was-born-deaf-so-he-invented-a-device-that-translates-sign-language-into-speech">Check out the article</a> */}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

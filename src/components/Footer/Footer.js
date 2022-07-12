@@ -18,6 +18,12 @@ const Footer = () => {
           gven.dev@gmail.com
         </LinkItem>
       </LinkColumn>
+      <LinkColumn>
+        <LinkTitle>Resume</LinkTitle>
+        <LinkItem target="_blank" href="GV Resume.pdf">
+          Download
+        </LinkItem>
+      </LinkColumn>
     </LinkList>
     <SocialIconsContainer>
       <CompanyContainer>
